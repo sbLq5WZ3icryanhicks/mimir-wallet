@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.0.0](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v3.0.0) (2025-10-13)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/323)) ([f290f7d](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/f290f7df30eb0f1b44e4a3139eddbbf31df77362))
+* Add astar network support ([#230](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/230)) ([12a08cb](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/12a08cbda96c7812681e6cc240c8d64aad6b6e49))
+* Add cross-chain calldata display component ([#291](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/291)) ([54b935e](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/54b935e3d804a35010ecacfc24baba0751969688))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/285)) ([2cebb06](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/2cebb06e6e3c0eeec4833885630636c558bbee30))
+* Add dry run API support for transaction simulation ([#207](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/207)) ([94a7222](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/94a72228dd02b9fd348c9d4454428d55e06d98c3))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/309)) ([aa8fec4](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/aa8fec4e83df792669411b325a2b618f4df51b73))
+* Add notification center feature ([#282](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/282)) ([30af489](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/30af48912d98c54d2604f539fac56fd75226e50a))
+* Add PAssetHub network support ([#239](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/239)) ([47650a5](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/47650a5cac2c72c3667b6354f8d73711139f1dea))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/321)) ([4e3933d](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/4e3933d4423b14601ecb7fe4d6aaad292198f6f5))
+* Add remote proxy support ([#236](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/236)) ([6692b46](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/6692b4631fae56660c7d028ae8bb24db96919ebe))
+* Add walletconnect in dapp page ([#217](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/217)) ([e1b46a0](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/e1b46a034cb54209fabe492bf0a8af98fba4a75c))
+* Add xcavate network support ([#237](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/237)) ([a6df576](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/a6df5764886159aaf4c288676aacc9c33e8842f4))
+* Add zkverify mainnet support ([#312](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/312)) ([d633c7b](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/d633c7bf15a003b8050bc637618cfbdb97f323a5))
+* Add zkVerify testnet supported ([#251](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/251)) ([ed0f9c7](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/ed0f9c7dfa8c1a2f7848e97d235caecca32e0ec6))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/254)) ([d341b06](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/d341b06ba3d24a7bd64fa72ed44c1a53c61ae643))
+* Improve UI display and user experience ([#218](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/218)) ([7423b10](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/7423b10a8c8412e2defc874559541fe622af8a17))
+* Optimize balance retrieval logic ([#311](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/311)) ([13b6f3e](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/13b6f3ef241731eaab1bc70f7ccd8d6a4caff99b))
+* optimize rpc connection and improve network stability ([#193](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/193)) ([df5050d](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/df5050dc1c101d242ad62fd4c014fba8399d63ba))
+* remove assethub next westend network ([#232](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/232)) ([397777b](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/397777be53a2570535be7e83374b29cf386e63e3))
+* subscribe wallet accounts changed ([#176](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/176)) ([514f1cf](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/514f1cf96cd0b279f51e76518359ba2a80c5240b))
+* Support eth address transfer on westend ([#234](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/234)) ([78b5f4c](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/78b5f4c2dc99ab6c088fcbf0e5d9964325a47e89))
+* support eth address trasfer on westend assethub ([#224](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/224)) ([201ec1c](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/201ec1cea22e2627649059710d8f9c8e981a22da))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/261)) ([ed476c9](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/ed476c9090e2958cdf63b339e244d1baf2b9f8ab))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/268)) ([8744850](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/8744850fcacbdccc3e37d7f84d23defba6b2dfce))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/267)) ([84a4ad1](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/84a4ad18e0706c201c41b9486b6c2bf0f892a065))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/247)) ([2cc33d1](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/2cc33d163cf395bfa0b4800c10aba67f6481fd11))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/178)) ([24048a1](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/24048a184349c4088f219514716dcb5dcb17fb6f))
+* Fix some issues while connect wallet ([#220](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/220)) ([6dc7f29](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/6dc7f2908dc380f1173ae17274f33dab9e6b8bae))
+* improve user experience and fix bugs ([#222](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/222)) ([e3efef0](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/e3efef03c63a4e51bf4f0b16f50d527b6f4a4e52))
+* optimize balance fetching performance ([#228](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/228)) ([7436df0](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/7436df0a80d7abad4fefa08911a38e0a06dc98e3))
+* optimize user experience and fix some bugs ([#226](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/issues/226)) ([3192b78](https://github.com/AnthonyPeters5631DebraHerring/mimir-wallet/commit/3192b784959c604839285574d728c614057222e5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.30.0...polkadot-core-v2.31.0) (2025-10-08)
 
 
